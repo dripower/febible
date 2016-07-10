@@ -1,6 +1,7 @@
 .demo-1,
 .demo-2,
-.demo-3 {
+.demo-3,
+.demo-4 {
   width: 200px;
   height: 200px;
   background-color: #ccc;
@@ -37,3 +38,10 @@
   width: 100px;
   background-color: red;
 }
+
+.demo-4 .element {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
