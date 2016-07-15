@@ -1,0 +1,61 @@
+.demo-1,
+.demo-2,
+.demo-3,
+.demo-4,
+.demo-5 {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.demo-1 .element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.demo-2 .element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -50px;
+  left: 50%;
+  top: 50%;
+}
+.demo-3 .element {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.demo-4 .element {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+.demo-5 .element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+

@@ -1,0 +1,33 @@
+<!-- 
+缺点：需要知道父容器和内容的宽度跟高度
+-->
+<div class="demo-1">
+  <div class="element"></div>
+</div>
+<!--
+缺点：1.需要知道内容的高度
+     2.没有足够空间时，element 会消失(类似div 在 body 内，当用户缩小浏览器窗口，滚动条不出现的情况)
+-->
+<div class="demo-2">
+  <div class="element"></div>
+</div>
+<!-- 
+缺点：1.需要知道内容的高度，IE(IE8 beta)中无效
+     2.无足够空间时，content 被截断，但是不会有滚动条出现
+-->
+<div class="demo-3">
+  <div class="element"></div>  
+</div>
+<!--
+缺点：1.只适配于文本，需要知道内容的高度
+     2.多行时，断词比较糟糕
+-->
+<div class="demo-4">
+  <div class="element">Content</div>  
+</div>
+<!--
+缺点：IE9及以下浏览器不支持
+-->
+<div class="demo-5">
+  <div class="element"></div>  
+</div>

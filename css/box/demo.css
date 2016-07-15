@@ -1,0 +1,41 @@
+.box {
+  width: 500px;
+  border: 1px dashed;
+  font-size: 17px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.box .box-hd {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.box .box-hd .title {
+  float: left;
+}
+.box .box-hd .title h3 {
+  font-size: 17px;
+  padding-left: 15px;
+  margin: 0;
+}
+.box .box-hd .more {
+  float: right;
+  margin-right: 15px;
+}
+.box .box-bd {
+  min-height: 200px;
+  padding: 15px;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+}
+.box .box-ft {
+  height: 35px;
+  margin-top: 18px;
+}
+.box .box-ft .action {
+  float: right;
+  margin-right: 15px;
+}
