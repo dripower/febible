@@ -15,9 +15,9 @@
   width: 100px;
   height: 100px;
   background-color: red;
-  position:relative;
-  top:50px;
-  left:50px;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
 .demo-2 .element {
   width: 100px;
